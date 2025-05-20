@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.Taller_Club_futbol.app.TallerClubFutbolApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.021 s -- in com.Taller_Club_futbol.app.TallerClubFutbolApplicationTests
