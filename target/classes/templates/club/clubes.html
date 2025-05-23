@@ -299,7 +299,7 @@
                             <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>Nombre</th>
+									<th>Nombre</th>
                                     <th>Entrenador</th>
                                     <th>Asociación</th>
                                     <th>Competiciones</th>
@@ -309,6 +309,8 @@
                             <tbody>
                                 <tr th:each="club : ${clubes}">
                                     <td th:text="${club.id}"></td>
+									<td th:text="${club.nombre}"></td>
+
                                     <td>
                                         <span th:if="${club.entrenador != null}">
                                             <i class="bi bi-person-badge"></i>
